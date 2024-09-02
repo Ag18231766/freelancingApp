@@ -22,7 +22,7 @@ const Landing = () => {
 
   return (
     <div className="landing-page">
-
+        
         <div className="landing-hero">
 
             <div className='landing-nav'>

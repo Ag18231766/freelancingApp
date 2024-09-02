@@ -1,13 +1,10 @@
-New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
+
 .all-users-page{
     padding: 4vh 2vw;
 
 }
 
-.all-users-page h3{
 
-
-}
 
 .all-users{
     display: flex;
@@ -26,10 +23,7 @@ New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give y
     border-radius: 0.8rem;
 }
 
-.user span{
 
-
-}
 
 .user span b{
     margin: 0;

@@ -1,4 +1,3 @@
-/* New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation */
 .client-projects-page{
     display: flex;
     justify-content: space-evenly;
@@ -6,60 +5,51 @@
 }
 
 .client-projects-header{
-
     display: flex;
     height: 8vh;
     justify-content: space-between;
     align-items: center;
 }
-.client-projects-header select{
 
+.client-projects-header select{
     width: 25vw;
+    background-color: #f0f4f8; /* Soft grey-blue */
+    border: 1px solid #b0c4de; /* Light steel blue */
+    color: #374151; /* Charcoal */
+    padding: 10px;
+    border-radius: 0.5rem;
 }
 
 .client-projects-list{
-
     width: 95%;
     height: 82vh;
-
     overflow-y: scroll;
-
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 8px, rgba(0, 0, 0, 0.3) 0px 1px 3px; /* Darker shadow */
     border-radius: 0.7rem;
     padding: 3vh 2vw;
-
-    display: flex;
-    flex-direction: column;
-
+    background-color: #ffffff; /* Pure white background */
 }
 
 .client-projects-list hr{
-
-    color: rgb(95, 96, 97);
+    border-color: #cbd5e0; /* Light grey-blue */
 }
 
-
-
 .listed-project:hover{
-    background-color: #efefef58;
+    background-color: #e2e8f0; /* Light grey-blue hover */
     cursor: pointer;
-
 }
 
 .listed-project h5{
     font-size: 0.9rem;
-
+    color: #2d3748; /* Dark charcoal */
 }
-
 
 .listed-project p{
-
     font-size: 0.9rem;
+    color: #4a5568; /* Medium charcoal */
 }
 
-
 .listed-project-head{
-
     display: flex;
     justify-content: space-between;
     margin-bottom: 3vh;
@@ -69,34 +59,32 @@
     width: 80%;
     margin: 0;
     font-size: 1.4rem;
-    color: #227396b0;
+    color: #2b6cb0; /* Rich blue */
 }
 
 .listed-project-head p{
-
     margin: 0;
+    color: #718096; /* Muted grey */
 }
 
 .listed-project .skills{
-
     display: flex;
     gap: 10px;
 }
 
 .listed-project .skills h6{
-
     font-size: 0.8rem;
     font-weight: 400;
-    color: #ee4950;
-    border: 1px solid #ee4950;
+    color: #38b2ac; /* Teal */
+    border: 1px solid #38b2ac;
     padding: 5px 10px;
     border-radius: 1rem;
+    background-color: #e6fffa; /* Light teal background */
 }
 
 .listed-project .bids-data{
-
     display: flex;
     gap: 30px;
     margin-top: 3vh;
+    color: #4a5568; /* Medium charcoal */
 }
-
